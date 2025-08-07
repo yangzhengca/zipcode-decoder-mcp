@@ -8,3 +8,14 @@ A Model Control Protocol (MCP) server that provides US zipcode lookup functional
 - **MCP Integration**: Built using the FastMCP framework for easy integration with MCP-compatible clients
 - **Error Handling**: Robust error handling for network issues and invalid responses
 - **Lightweight**: Simple, focused implementation with minimal dependencies
+
+## MCP server configration
+```json
+    "zipcode-decoder-mcp": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "zipcode-decoder-mcp"
+      ]
+    }
+```
