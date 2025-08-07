@@ -9,7 +9,7 @@ A Model Control Protocol (MCP) server that provides US zipcode lookup functional
 - **Error Handling**: Robust error handling for network issues and invalid responses
 - **Lightweight**: Simple, focused implementation with minimal dependencies
 
-## MCP server configration
+## MCP server configuration
 ```json
     "zipcode-decoder-mcp": {
       "type": "stdio",
@@ -19,3 +19,9 @@ A Model Control Protocol (MCP) server that provides US zipcode lookup functional
       ]
     }
 ```
+
+## Example
+
+User prompt: Which city does zipcode 31999 belong to?
+
+Expected answer: Columbus, GA
