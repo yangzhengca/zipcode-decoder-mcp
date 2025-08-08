@@ -11,13 +11,17 @@ A Model Control Protocol (MCP) server that provides US zipcode lookup functional
 
 ## MCP server configuration
 ```json
-    "zipcode-decoder-mcp": {
-      "type": "stdio",
-      "command": "uvx",
-      "args": [
-        "zipcode-decoder-mcp"
-      ]
+{
+    "mcpServers": {
+    	"zipcode-decoder-mcp": {
+      		"type": "stdio",
+      		"command": "uvx",
+      		"args": [
+        		"zipcode-decoder-mcp"
+      		]
+    	}
     }
+}
 ```
 
 ## Example

@@ -1,10 +1,10 @@
 [project]
 name = "zipcode-decoder-mcp"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Model Control Protocol (MCP) server that provides US zipcode lookup functionality. It can be used to decode zipcodes into city and state information."
 readme = "README.md"
 authors = [
-    { name = "yang", email = "superfyca@gmail.com" }
+    { name = "Yang" }
 ]
 requires-python = ">=3.13"
 dependencies = [
